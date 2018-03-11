@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Bungee-Regular';
+  src: url("/Users/aulbriesass/Desktop/programs/TTS/Fonts/bungee/Bungee-Regular.otf");
+  src: url("/Users/aulbriesass/Desktop/programs/TTS/Fonts/bungee/Bungee-Hairline.otf") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee-Regular', Arial, sans-serif !important;
+}
+
+.jumbotron {
+  background-color: #d20e0e !important;
+}
+.jumbotron .container #big-title {
+  text-align: center;
+  font-size: 100px;
+}
+
+#playerScore, #computerScore {
+  text-align: center;
+}
+
+.table {
+  font-family: 'Bungee-Hairline', Arial, sans-serif !important;
+}
+
+.btn {
+  border-radius: 0px;
+}
+.btn-default {
+  background-color: blue;
+}
+.btn-primary {
+  background-color: red;
+}
+
+/*# sourceMappingURL=rps.css.map */

@@ -43,4 +43,14 @@ $('tbody').append(`<tr><td>${summary}</td></tr>`)
 
 }
 
+$('#rock').click(function() {
+  gamePlay('rock');
+});
+$('#scissors').click(function() {
+  gamePlay('scissors');
+});
+$('#paper').click(function() {
+  gamePlay('paper');
+});
+
 $('#reset-game').click(gameReset);
